@@ -1,0 +1,15 @@
+Part 1: Theoretical Analysis
+Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?
+AI-driven code generation tools like GitHub Copilot accelerate development by suggesting context-aware code snippets, autocompleting boilerplate code, and providing solutions based on natural language prompts. They leverage large language models trained on vast codebases to predict and generate code, reducing manual typing and debugging time. For example, Copilot can generate a sorting function or API call in seconds, allowing developers to focus on higher-level logic.
+Limitations:
+•	Context Misinterpretation: Copilot may suggest irrelevant or incorrect code if the context is ambiguous.
+•	Code Quality: Generated code may lack optimization or follow suboptimal patterns.
+•	Security Risks: Suggestions may include vulnerable code from public repositories.
+•	Dependency on Training Data: Limited to patterns in its training data, potentially missing niche or cutting-edge solutions.
+Q2: Compare supervised and unsupervised learning in the context of automated bug detection.
+•	Supervised Learning: Uses labeled datasets (e.g., code with known bugs) to train models like Random Forest or SVM to classify code as buggy or not. It excels in detecting known bug patterns but requires extensive labeled data, which can be costly to create.
+•	Unsupervised Learning: Identifies anomalies in codebases without labeled data, using clustering (e.g., K-Means) to flag unusual patterns as potential bugs. It’s useful for novel bugs but may produce false positives due to lack of ground truth.
+•	Comparison: Supervised learning is more accurate for known issues but less adaptable to new bugs, while unsupervised learning is flexible but less precise.
+Q3: Why is bias mitigation critical when using AI for user experience personalization?
+Bias in AI personalization (e.g., recommending features based on user data) can lead to unfair treatment, such as prioritizing certain demographics or excluding underrepresented groups. This erodes trust, reduces inclusivity, and risks legal issues. For example, biased algorithms may recommend premium features only to high-income users, alienating others. Mitigation ensures equitable outcomes, using techniques like fairness-aware algorithms or diverse training data to balance personalization with inclusivity.
+
